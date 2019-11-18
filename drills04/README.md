@@ -9,9 +9,10 @@
  	- For example, if the text of the element was "yo", it would be changed to "yohello"`,
 
 
-- addClass: Make a function that takes in 2 strings.  The first selector it looks for, the 2nd it adds as a class
-	- For example, if you had addClass(".haha","hehe"), then every element
-	- with a class of haha would now also have a class of hehe.
-  Additionally, return the number of elements so changed`,
+- addClass: Make a function that takes in 2 strings:
+	- The first string is the selector of elements to modify.
+	- The second string is the class to add to those elements.
+	- For example, if you had addClass(".haha","hehe"), then every element with a class of `haha` would now also have a class of `hehe`.
+  	- Additionally, return the number of elements changed.
 
 - removeElements: given a particular selector, remove any element that matches that selector
