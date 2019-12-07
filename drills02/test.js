@@ -60,7 +60,7 @@ var testVals = [{
       [[4,6,3,6,1,8,4,3,3,4,5,6,6,7]],
     ],
     outputs: [
-      3, 6
+      3, 6, 7
     ]
   },
   functionToTest: 'findMode'
